@@ -3,6 +3,7 @@
     "description": "fastadmin-addon for ThinkPHP 5.1.x",
     "type": "library",
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "文化人干流氓事",
