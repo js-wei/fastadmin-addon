@@ -1,0 +1,31 @@
+{
+    "name": "jswei/fastadmin-addon",
+    "description": "fastadmin-addon for ThinkPHP 5.1.x",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "文化人干流氓事",
+            "email": "524314430@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "topthink/think-helper": ">=1.0.4",
+        "topthink/think-installer": ">=1.0.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\": "src/"
+        },
+        "files": [
+            "src/common.php"
+        ]
+    },
+    "extra": {
+        "think-config": {
+            "addons": "src/config.php"
+        }
+    }
+}
